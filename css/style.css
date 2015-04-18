@@ -1,0 +1,144 @@
+@CHARSET "ISO-8859-1";
+
+/* INDEX */
+.headerIndex {
+	z-index: 1;
+	position: fixed;
+	background-color: #0080c0;
+	height: 60px;
+	top: 0;	
+	left: 0;
+	right: 0;
+	border-bottom: 20px solid #191918;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	padding-left: 25px;
+	-moz-box-shadow: 0 0 20px #191918;
+	-webkit-box-shadow: 0 0 20px #191918;
+	-o-box-shadow: 0 0 20px #191918;
+	box-shadow: 0 0 20px #191918;
+}
+
+.left { 
+	background-color: #f2f2ed;
+	position: absolute;
+	float: left;
+	width: 60%;
+	left: 0;
+	top: 80px;
+	bottom: 30px;
+	padding-top: 20px;
+	padding-left: 30px;
+}
+
+.right { 
+	background-color: #f2f2ed;
+	position: absolute;
+	float: left;
+	width: 40%;
+	left: 60%;
+	top: 80px;
+	bottom: 30px;
+	padding-top: 20px;
+}
+
+.footerIndex {
+	z-index: 1;
+	background-color: #191918;
+	position: fixed;
+	height: 30px;
+	width: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	-moz-box-shadow: 0 0 20px #191918;
+	-webkit-box-shadow: 0 0 20px #191918;
+	-o-box-shadow: 0 0 20px #191918;
+	box-shadow: 0 0 20px #191918;
+}
+/* INDEX END */
+
+/* LOGGED IN */
+.header {
+	z-index: 2;
+	position: fixed;
+	background-color: #0080c0;
+	height: 60px;
+	top: 0;	
+	left: 0;
+	right: 0;
+	border-bottom: 1px solid #cecece;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	padding-left: 25px;
+}
+
+.footer {
+	z-index: 1;
+	background-color: #191918;
+	position: absolute;
+	height: 30px;
+	width: auto;
+	top: 3106px;
+	left: 0;
+	right: 0;
+	-moz-box-shadow: 0 0 20px #191918;
+	-webkit-box-shadow: 0 0 20px #191918;
+	-o-box-shadow: 0 0 20px #191918;
+	box-shadow: 0 0 20px #191918;
+}
+
+.menu {
+	z-index: 1;
+	position: fixed;
+	background-color: #191918;
+	height: 45px;
+	top: 60px;
+	left: 0;
+	right: 0;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+	line-height: 75%;
+	-moz-box-shadow: 0 0 20px #191918;
+	-webkit-box-shadow: 0 0 20px #191918;
+	-o-box-shadow: 0 0 20px #191918;
+	box-shadow: 0 0 20px #191918;
+}
+
+.menu > ul li {
+	display: inline-block;
+}
+
+.menu > ul li a {
+	padding: 11px 25px 13px 25px;
+	text-decoration: none;
+	color: #9d9d9d;
+}
+
+.menu > ul li a:hover { 
+	background: #d9d9d9;
+	color: #191918;
+}
+
+.content {
+	background-color: #f2f2ed;
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 3000px;
+	top: 106px;
+	padding-top: 20px;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.content table {
+	height: 500px;
+	width: 100%;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+}
+
+.content table,
+.content table tr,
+.content table td {
+	border: 1px solid #191918;
+}
+/* LOGGED IN END */
+
